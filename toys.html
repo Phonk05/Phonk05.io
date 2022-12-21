@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/toys.css">
+    <title>Toys</title>
+</head>
+<body>
+    <header class="container">
+    <div class="header">
+        <div class="wrapper__menu">
+            <input class="wrapper__checkmenu" type="checkbox" id="check-menu">
+            <label class="wrapper__checklabel" for="check-menu">MENU</label>
+            <div class="wrapper__burder-line"></div>
+            <div class="wrapper__burder-line"></div>
+            <div class="wrapper__burder-line"></div>
+            <div class="wrapper__burder-line"></div>
+            <nav class="wrapper__main-menu">
+                <a href="catalog.html" class="wrapper__menu-item">CATALOG</a>
+                <a href="#" class="wrapper__menu-item">ABOUT US</a>
+                <a href="blog.html" class="wrapper__menu-item">BLOG</a>
+                <a href="animation.html" class="wrapper__menu-item">ANIMATION</a>
+                <a href="svg.html" class="wrapper__menu-item">SVG</a>
+                <a href="grid.html" class="wrapper__menu-item">GRID</a>
+                <a href="contactus.html" class="wrapper__menu-item">CONTACT US</a>                    
+            </nav>
+           </div>
+            <div class="header__logo-img">
+                
+                <picture>
+                    <source class="header__logo-img" srcset="./img/image/dlk.png" type="image/png" max-width="100" max-height="52" media="(min-width:768px)"> 
+                    <source class="header__logo-img" srcset="./img/image/dlk42x22.png" type="image/png" media="(min-width:376px)">
+                    <source class="header__logo-img" srcset="./img/image/dlk62x32.png" type="image/png" media="(max-width:375px)">
+                    <a href="./index.html"><img class="header__logo-img" src="./img/image/dlk.png" alt="dlk-logo"></a>
+                  </picture>
+            </div>
+            <ul class="header__list">
+                <li><a href="blog.html" class="header__list-item">BLOG</a></li>
+                <li><a href="catalog.html" class="header__list-item">CATALOG</a></li>
+                <li><a href="#" class="header__list-item">ABOUT US</a></li>
+                <li><a href="animation.html" class="header__list-item">ANIMATION</a></li>
+                <li><a href="svg.html" class="header__list-item">SVG</a></li>
+                <li><a href="grid.html" class="header__list-item">GRID</a></li>
+               </ul>
+            <ul class="header__contact">
+                <li><img class="header__contact-img" src="./img/loupe.svg" alt="contact" width="17" height="17"></li>
+                <li><a href="contactus.html" class="header__text">CONTACT US</a></li>
+               </ul>               
+    </div>
+</header>
+<main>
+    <section class="toy">
+        <div class="container">
+            <h1 class="toy__title">Toy for kids</h1>
+                <ul class="toy__home">
+                    <li><a class="toy__home-item" href="../index.html">Home</a></li>
+                    <li><img class="toy__home-arrow" src="../img/arrowblack.svg" alt="arrow"></li>
+                    <li><a class="toy__home-it" href="./catalog.html">Catalog</a></li>
+                    <li><img class="arrow-home" src="../img/arrowblack.svg" alt="arrow"></li>
+                    <li class="toy__home-ite">Toys</li>
+                </ul>                
+        </div>
+    </section>
+
+    <section class="filters">
+        <div class="container">
+            <div class="filters__navigations">
+                <div class="filters__cost">
+                    <h2 class="filters__cost-text">Cost</h2>
+                    <input class="filters__cost-input" type="range" min="0" max="500" value="50" name="range" step="1">
+                    <div class="filters__cost-items">
+                        <p class="filters__cost-item">0</p>
+                        <p class="filters__cost-item">500</p>
+                    </div>
+                </div>
+                <div class="colouring">
+                    <p class="colouring__text">Color</p>
+                    <input class="colouring__chekbox" type="checkbox" id="black" name="color">
+                      <label class="colouring__item" for="black"><span class="colouring__checkmark">Black</span></label>
+                      <input class="colouring__chekbox" type="checkbox" id="blue" name="color">
+                      <label class="colouring__item" for="blue"><span class="colouring__checkmark">Blue</span></label>
+                      <input class="colouring__chekbox" type="checkbox" id="green" name="color">
+                      <label class="colouring__item" for="green"><span class="colouring__checkmark">Green</span></label>
+                      <input class="colouring__chekbox" type="checkbox" id="white" name="color">
+                      <label class="colouring__item" for="white"><span class="colouring__checkmark">White</span></label>
+                    </div>
+                       <div class="filters__delivery">
+                        <p class="filters__delivery-text">Delivery</p>
+                        <div class="filters__delivery-radio">
+                            <input class="filters__delivery-input" name="free" type="radio" id="radio_1">
+                            <label class="filters__delivery-label" for="radio_1"><span class="filters__delivery-checkmark">Free shipping</span></label>
+                        </div> 
+                        <div class="filters__delivery-radio">
+                            <input class="filters__delivery-input" name="free" type="radio" id="radio_2">
+                            <label class="filters__delivery-label" for="radio_2"><span class="filters__delivery-checkmark">Fast shipping</span></label>
+                        </div> 
+                       </div>
+                       <div class="amount">
+                        <p class="amount__title">Amount</p>
+                            <div class="amount__group-item">
+                                <input class="amount__group-in" id="radio__one" type="radio" name="radio" value="1" checked="checked">
+                                <label class="amount__group-label" for="radio__one"><span class="amount__group-number">0-5</span></label>
+                            </div>
+                            <div class="amount__group-item">
+                                <input class="amount__group-in" id="radio__two" type="radio" name="radio" value="2">
+                                <label class="amount__group-label" for="radio__two"><span class="amount__group-number">10-20</span></label>
+                            </div>
+                            <div class="amount__group-item">
+                                <input class="amount__group-in" id="radio__three" type="radio" name="radio" value="3">
+                                <label class="amount__group-label" for="radio__three"><span class="amount__group-number">20-50</span></label>
+                        </div>
+                       </div>
+                       <button type="button" class="amount__group-button">Apply</button>
+                       
+            </div>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="container">
+            <div class="catalog__wrap">
+                <div class="catalog__shark">
+                    <img class="catalog__shark-img" src="../img/shark.png" alt="shark-shaped pillow" width="380" height="385">
+                    <a class="catalog__shark-learn" href="#">
+                        <div class="catalog__shark-learnmore">
+                            <p class="catalog__sharktext">LEARN MORE</p>
+                        </div>
+                    </a>
+                    <h3 class="catalog__sharktitle">SHARKY BEAN BAG CHAIR COVER</h3>
+                    <p class="catalog__shark-price">$60.00 USD</p>
+                </div>
+                <div class="catalog__brass">
+                    <img class="catalog__brass-img" src="../img/brass.png" alt="brass" width="380" height="385">
+                    <a class="catalog__brass-learn" href="#">
+                        <div class="catalog__more-brass">
+                            <p class="catalog__brasstext">LEARN MORE</p>
+                        </div>
+                    </a>
+                    <p class="catalog__name-brass">BRASS DECO FRAMES</p>
+                    <p class="catalog__price-brass">$66.00 USD</p>
+                </div>
+            <div class="catalog__cibo">
+                <img class="catalog__cibo-img" src="../img/cibo.png" alt="cibo" width="380" height="385">
+                <a class="catalog__cibo-learn" href="#">
+                    <div class="catalog__more-cibo">
+                        <p class="catalog__cibotext">LEARN MORE</p>
+                    </div>
+                </a>
+                <p class="catalog__name-cibo">CIBO FULL APRON</p>
+                <p class="catalog__price-cibo">$60.00 USD</p>
+            </div>
+            <div class="catalog__machine">
+                <img class="catalog__machine-img" src="../img/machine.png" alt="candy machine" width="380" height="385">
+                <a class="catalog__machine-learn" href="#"> 
+                    <div class="catalog__more-machine">
+                        <p class="catalog__machine-text">LEARN MORE</p>
+                    </div>
+                </a>
+                <p class="catalog__name-machine">GATCHA GATCHA GUMBALL MACHINE</p>
+                <p class="catalog__price-machine">$56.00 USD</p>
+            </div>
+            <div class="catalog__candle">
+                <img class="catalog__candle-img" src="../img/candle.png" alt="new year candle" width="380" height="385">
+                <a class="catalog__candle-learn" href="#">
+                    <div class="catalog__more-candle">
+                        <p class="catalog__candle-text">LEARN MORE</p>
+                    </div>
+                </a>
+                <p class="catalog__name-candle">CHRISTMAS ADVENT SCENTED CANDLE</p>
+                <p class="catalog__price-candle">$29.00 USD</p>
+            </div>
+            <div class="catalog__tangle">
+                <img class="catalog__tangle-img" src="../img/tangle.png" alt="tangle" width="380" height="382">
+                <a class="catalog__tangle-learn" href="#">
+                    <div class="catalog__more-tangle">
+                        <p class="catalog__tangle-text">LEARN MORE</p>
+                    </div>
+                </a>
+                <p class="catalog__name-tangle">TANGLE SPINNING TEA LIGHT</p>
+                <p class="catalog__price-tangle">$56.00 USD</p>
+            </div>
+            </div>
+    </div>
+    </section>
+
+    <div class="slider">
+    <div class="container container-catalog">
+        <div class="slider__wrapper">
+            <img class="slider__img-left" src="../img/arrowleftwhite.svg" alt="arrowleft">
+        <ul class="slider__list">
+            <li class="slider__list-item">1</li>
+            <li class="slider__list-item">2</li>
+            <li class="slider__list-item">3</li>
+            <li class="slider__list-item">4</li>    
+        </ul>
+        <img class="slider__img-rigth" src="../img/arrowrightwhite.svg" alt="arrowright">
+        </div>
+    </div>
+    </div>
+
+</main>
+<footer class="footer">
+  <div class="container">
+      <div class="footer__aside">
+          <div class="footer__navigation">
+              <p class="footer__text">Navigation</p>
+              <div class="footer__line"></div>
+                  <ul class="footer__info">
+                      <li class="footer__info-item">About Us</li>
+                      <li class="footer__info-item">Blog</li>
+                      <li class="footer__info-item">Design Services</li>
+                      <li class="footer__info-item">Featured On</li>
+                      <li class="footer__info-item">2018 Holiday Catalog</li>
+                      <li class="footer__info-item">Shop By Designer</li>
+                  </ul>
+          </div>
+          <div class="footer__customer">
+              <div class="footer__customer-text">Customer Information</div>
+              <div class="footer__customer-line"></div>
+                  <ul class="footer__customer-it">
+                      <li class="footer__customer-item">Contact Us</li>
+                      <li class="footer__customer-item">Sale Exclusions</li>
+                      <li class="footer__customer-item">Shipping & Returns</li>
+                      <li class="footer__customer-item">Terms & Conditions</li>
+                      <li class="footer__customer-item">Privacy Policy</li>
+                      <li class="footer__customer-item">Search</li>
+                  </ul>
+          </div>
+          <div class="footer__connect">
+              <form action="#" method="POST" class="form-elements"></form>
+                  <div class="footer__connect-wrap">
+                      <div class="footer__connect-text">Connect</div>
+                      <div class="footer__connect-line"></div>
+                      <div class="footer__mail">
+                          <input class="footer__input" type="text" placeholder="Email">
+                          <button type="button" class="footer__button">Join</button>
+                          
+                      </div>
+                          <ul class="footer__links">
+                              <li class="footer__img-item"><img src="./img/facebook.svg" alt="facebook" width="30" height="30"></li>
+                              <li class="footer__img-item"><img src="./img/twitter.svg" alt="twitter" width="30" height="30"></li>
+                              <li class="footer__img-item"><img src="./img/pinterest.svg" alt="pinterest" width="30" height="30"></li>
+                              <li class="footer__img-item"><img src="./img/instagram.svg" alt="instagram" width="30" height="30"></li>
+                          </ul>
+                      </div>
+                  </div>
+          </div>
+          <div class="footer__line-big"></div>
+          <div class="footer__box">
+              <div class="footer__company">
+                  <p class="footer__company-text">Company Rating</p>
+                  <div class="footer__rating-mini">
+                      <div class="footer__rating-area">
+                       <input type="radio" id="star-5" name="rating" value="5">
+                       <label class="label-rating" for="star-5" title="Супер"></label> 
+                       <input type="radio" id="star-4" name="rating" value="4">
+                       <label class="label-rating" for="star-4" title="Хорошо"></label>    
+                       <input type="radio" id="star-3" name="rating" value="3">
+                       <label class="label-rating" for="star-3" title="Пойдет"></label>  
+                       <input type="radio" id="star-2" name="rating" value="2">
+                       <label class="label-rating" for="star-2" title="Не очень"></label>    
+                       <input type="radio" id="star-1" name="rating" value="1">
+                       <label class="label-rating" for="star-1" title="Все sad"></label>
+                      </div> 
+                     </div>
+                    </div>
+                        <div class="footer__info-text">Copyright © 2018 Dlk • Design Life Kids</div>
+                        <div class="footer__web-text">Web Design — Direct Line Development</div>                                       
+          </div>
+      </div>
+</footer>    
+</body>
+
+</html>
