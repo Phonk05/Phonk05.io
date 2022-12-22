@@ -3823,6 +3823,9 @@ input[type=checkbox]:checked + .colouring-item::before {
     margin-left: -38px;
   }
 }
+.delivery__list {
+  margin-left: 38px;
+}
 .delivery__itemdel {
   display: flex;
   align-items: center;
