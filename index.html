@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="./css/contactus.css">
     <link rel="stylesheet" href="./css/animation.css">
     <link rel="stylesheet" href="./css/svg.css">
-    <title></title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 
     <title>DLK is an amazing custom toy store</title>
     <meta name="description" content="With the help of our store you will find a gift for every taste and wallet. Also we can make products exactly according to your layout in the shortest possible time. The first customers are given tremendous discounts and bonuses.">
@@ -26,7 +25,7 @@
 
     
     <link rel="icon" href="icon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.min.css?v=1671628170792">
+    <link rel="stylesheet" href="css/style.min.css?v=1671711291843">
   </head>
   <body>
     <header class="container">
@@ -112,20 +111,20 @@
                   <li class="catalog__products-accessories"><img class="catalog-accessories-img" src="./img/accessories.png" alt="Sock toy on a skateboard" width="240" height="250">
                       <a href="#" class="catalog__products-text">ACCESSORIES</a></li>
               </ul>
-              <div class="catalog__slider">
-                  <div class="container">
-                      <div class="catalog__slider-arrows">
-                          <button class="catalog__slider-left"></button>
-                          <img class="catalog__slider-positionleft" src="./img/left.svg" alt="left" width="37" height="37">
-                          <button class="catalog__slider-right"></button>
-                          <img class="catalog__slider-positionright" src="./img/right.svg" alt="right" width="37" height="37">
-                          <p class="catalog__slider-text">Modern finds for the modern home. Curated goods by unique designers around
-                              the world from fashion to furniture for kids and adults.</p>
-                      </div>
-                  </div>
-              </div>
           </div>
       </section>
+      
+        <div class="container catalog__slider">
+            <div class="catalog__slider-arrows">
+                <button class="catalog__slider-left"></button>
+                <img class="catalog__slider-positionleft" src="./img/left.svg" alt="left" width="37" height="37">
+                <button class="catalog__slider-right"></button>
+                <img class="catalog__slider-positionright" src="./img/right.svg" alt="right" width="37" height="37">
+                <p class="catalog__slider-text">Modern finds for the modern home. Curated goods by unique designers around
+                    the world from fashion to furniture for kids and adults.</p>
+            </div>
+        </div>
+    
 
       <section class="delivery">
           <div class="container container-catalog">
@@ -206,7 +205,7 @@
                           <p class="info__contacts-title">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
                               <div class="map">
                                  <div id="map-element" class="map__element">
-                                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.5510575195826!2d49.2880382517228!3d53.512214679916035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879ed1ada6fbd%3A0x751234490b1ca980!2sDirect%20Line%20Digital!5e0!3m2!1sru!2sru!4v1665376044203!5m2!1sru!2sru" width="100%" height="196" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                  <iframe class="map-content" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.5510575195826!2d49.2880382517228!3d53.512214679916035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879ed1ada6fbd%3A0x751234490b1ca980!2sDirect%20Line%20Digital!5e0!3m2!1sru!2sru!4v1665376044203!5m2!1sru!2sru" width="100%" height="196" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                               </div>
                       </div>
                   </div>
@@ -331,5 +330,9 @@
     <script src="js/app.js" defer="defer"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <audio controls autoplay>
+    <source src="./audio/music.mp3" type="audio/ogg; codecs=vorbis">
+    <source src="./audio/music.ogg" type="audio/mpeg; codecs=vorbis">
+  </audio>
   </body>
 </html>
