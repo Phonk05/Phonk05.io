@@ -1316,6 +1316,11 @@ li {
   position: relative;
   padding: 3px;
 }
+@media (max-width: 375px) {
+  .catalog__slider-positionleft {
+    margin-left: 6px;
+  }
+}
 .catalog__slider-right {
   display: flex;
   align-items: center;
@@ -3615,7 +3620,6 @@ input[type=checkbox]:checked + .colouring-item::before {
 
 .banner-wrap {
   display: flex;
-  margin-top: 144px;
 }
 
 .banner__full {
@@ -3830,6 +3834,11 @@ input[type=checkbox]:checked + .colouring-item::before {
 }
 .delivery__list {
   margin-left: 38px;
+}
+@media (max-width: 375px) {
+  .delivery__list {
+    margin-left: 0;
+  }
 }
 .delivery__itemdel {
   display: flex;
