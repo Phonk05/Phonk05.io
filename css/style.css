@@ -3304,7 +3304,6 @@ input[type=checkbox]:checked + .colouring-item::before {
 .banner {
   margin-top: 40px;
   margin: 0 auto;
-  width: 1180px;
   height: 372px;
   position: relative;
   margin-top: 129px;
